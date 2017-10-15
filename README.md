@@ -8,7 +8,7 @@ Find usb device name:
 fdisk -l
 ```
 
-Bake bootable usb:
+Make bootable usb:
 
 ```bash
 mkfs.vfat /dev/sdXY
