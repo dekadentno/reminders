@@ -32,3 +32,8 @@ git remote add origin REMOTE URL
 git remote -v
 git push origin master
 ```
+
+Show detailed information on the hardware configuration of the machine 
+```bash
+lshw
+```
