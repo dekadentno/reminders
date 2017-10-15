@@ -37,3 +37,8 @@ Show detailed information on the hardware configuration of the machine
 ```bash
 lshw
 ```
+
+Show I/O usage information (fishy load average)
+```bash
+iotop
+```
