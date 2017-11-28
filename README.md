@@ -1,8 +1,8 @@
 # reminders
 
-Here's a (growing) collection of (mostly linux-related) stuff that I use daily but can't seem to remember.
+## Here's a (growing) collection of (mostly linux-related) stuff that I use daily but can't seem to remember.
 
-Find usb device name:
+##### Find usb device name:
 
 ```bash
 fdisk -l
@@ -14,7 +14,7 @@ or:
 df
 ```
 
-Make bootable usb:
+##### Make bootable usb:
 
 ```bash
 mkfs.vfat -n 'Name' -I /dev/sdXY
@@ -22,13 +22,13 @@ umount /dev/sdXY
 dd if=PATH_TO_ISO.iso of=/dev/sdX
 ```
 
-Install missing dependencies:
+##### Install missing dependencies:
 
 ```bash
 apt-get -f install
 ```
 
-Add existing project to github:
+##### Add existing project to github:
 
 ```bash
 git init
@@ -39,12 +39,16 @@ git remote -v
 git push origin master
 ```
 
-Show detailed information on the hardware configuration of the machine 
+##### Show detailed information on the hardware configuration of the machine 
 ```bash
 lshw
 ```
 
-Show I/O usage information (fishy load average)
+##### Show I/O usage information (fishy load average)
 ```bash
 iotop
+```
+##### List directory as tree structure
+```bash
+tree myDirectory/
 ```
