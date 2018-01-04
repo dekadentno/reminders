@@ -52,3 +52,7 @@ iotop
 ```bash
 tree myDirectory/
 ```
+##### Search for particular string recursively, but don't look in node_modules and dist folders
+```bash
+grep -Rin "bla" . --exclude-dir=node_modules/ --exclude-dir=dist/
+ ```
