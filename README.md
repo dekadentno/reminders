@@ -56,3 +56,7 @@ tree myDirectory/
 ```bash
 grep -Rin "bla" . --exclude-dir=node_modules/ --exclude-dir=dist/
  ```
+##### See what process is using port 8081
+```bash
+lsof -P -i :8081 | grep LISTEN
+```
