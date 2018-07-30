@@ -56,7 +56,21 @@ tree myDirectory/
 ```bash
 grep -Rin "bla" . --exclude-dir=node_modules/ --exclude-dir=dist/
  ```
+ 
 ##### See what process is using port 8081
 ```bash
 lsof -P -i :8081 | grep LISTEN
 ```
+
+##### Fancy console
+```bash
+export PS1="🍔  \[\033[01;35m\]\u@\h:\[\033[01;34m\]\[\033[01;32m\]\w \[\033[01;34m\]\n>\[\e[0m\]"
+```
+
+##### Reload bashrc
+```bash
+source ~/.bashrc
+```
+
+
+
