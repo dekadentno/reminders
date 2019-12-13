@@ -34,17 +34,6 @@ dd if=PATH_TO_ISO.iso of=/dev/sdX
 apt-get -f install
 ```
 
-##### Add existing project to github:
-
-```bash
-git init
-git add .
-git commit -m "First commit"
-git remote add origin REMOTE URL
-git remote -v
-git push origin master
-```
-
 ##### Show detailed information on the hardware configuration of the machine 
 ```bash
 lshw
@@ -71,11 +60,6 @@ lsof -P -i :8081 | grep LISTEN
 ##### Fancy console
 ```bash
 export PS1="🍔  \[\033[01;35m\]\u@\h:\[\033[01;34m\]\[\033[01;32m\]\w \[\033[01;34m\]\n>\[\e[0m\]"
-```
-
-##### Reload bashrc
-```bash
-source ~/.bashrc
 ```
 
 
