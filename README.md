@@ -11,6 +11,12 @@ fdisk -l
 or:
 
 ```bash
+lsblk
+```
+
+or:
+
+```bash
 df
 ```
 
