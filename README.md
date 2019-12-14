@@ -25,7 +25,7 @@ df
 ```bash
 mkfs.vfat -n 'Name' -I /dev/sdXY
 umount /dev/sdXY
-dd if=PATH_TO_ISO.iso of=/dev/sdX
+dd if=PATH_TO_ISO.iso of=/dev/sdX status=progress && sync
 ```
 
 ##### Install missing dependencies:
