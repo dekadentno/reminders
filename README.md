@@ -63,4 +63,11 @@ export PS1="🍔  \[\033[01;35m\]\u@\h:\[\033[01;34m\]\[\033[01;32m\]\w \[\033[0
 ```
 
 
+##### List and remove all node_modules directories from subdirectories in cwd
+```bash
+# list
+find . -name "node_modules" -type d -prune -print | xargs du -chs
+# remove
+find . -name 'node_modules' -type d -prune -print -exec rm -rf '{}' \;
+```
 
